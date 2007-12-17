@@ -12,7 +12,6 @@ URL:		http://www.muhri.net
 Source:		http://www.muhri.net/gkrellm/GKrellM-Skins.tar.bz2
 Requires:	gkrellm >= 0.9.0
 BuildArch:	noarch
-BuildRoot:	%{_tmppath}/%{name}-%{version}
 
 %description
 This package contains some nice themes for the GKrellM monitoring utility.
