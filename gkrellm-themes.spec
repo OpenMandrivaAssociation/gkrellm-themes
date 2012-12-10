@@ -62,3 +62,75 @@ rm -rf %{buildroot}
 %defattr(-,root,root)
 %{_datadir}/gkrellm2/themes/*
 
+
+
+%changelog
+* Fri Dec 10 2010 Oden Eriksson <oeriksson@mandriva.com> 20030129-11mdv2011.0
++ Revision: 618954
+- the mass rebuild of 2010.0 packages
+
+* Fri Sep 04 2009 Thierry Vignaud <tv@mandriva.org> 20030129-10mdv2010.0
++ Revision: 429208
+- rebuild
+
+* Thu Jul 24 2008 Thierry Vignaud <tv@mandriva.org> 20030129-9mdv2009.0
++ Revision: 246164
+- rebuild
+
+  + Olivier Blin <oblin@mandriva.com>
+    - restore BuildRoot
+
+* Tue Dec 18 2007 Guillaume Rousse <guillomovitch@mandriva.org> 20030129-7mdv2008.1
++ Revision: 132436
+- rebuild
+
+  + Thierry Vignaud <tv@mandriva.org>
+    - kill re-definition of %%buildroot on Pixel's request
+    - import gkrellm-themes
+
+
+* Tue Jul 11 2006 Guillaume Rousse <guillomovitch@mandriva.org> 20030129-6mdv2007.0
+- %%mkrel
+
+* Wed Jun 15 2005 Guillaume Rousse <guillomovitch@mandriva.org> 20030129-5mdk 
+- really really remove all themes already included in gkrellm
+
+* Mon Jun 13 2005 Guillaume Rousse <guillomovitch@mandriva.org> 20030129-4mdk 
+- really remove all themes already included in gkrellm
+- fix additional themes shipped in .tgz
+
+* Sat Jun 11 2005 Guillaume Rousse <guillomovitch@mandriva.org> 20030129-3mdk 
+- removed all themes already included in gkrellm
+
+* Tue Jun 07 2005 Guillaume Rousse <guillomovitch@mandriva.org> 20030129-2mdk 
+- drop BloeStolen, it's already included in gkrellm
+
+* Tue Jun 07 2005 Guillaume Rousse <guillomovitch@mandriva.org> 20030129-1mdk 
+- new versionning scheme, more adapted to follow upstream changes
+- spec cleanup
+- don't own parent directory
+
+* Mon Apr 28 2003 Guillaume Rousse <g.rousse@linux-mandrake.com> 0.2-5mdk
+- fixed dir ownership (Olivier Thauvin <thauvin@aerov.jussieu.fr>)
+
+* Sun Mar 23 2003 Guillaume Rousse <g.rousse@linux-mandrake.com> 0.2-4mdk
+- s/Copyright/License
+- removed lurking .xvpics directories
+
+* Thu Jan 02 2003 Vincent Danen <vdanen@mandrakesoft.com> 0.2-3mdk
+- a bot told me to rebuild so here we go
+- fix some rpmlint errors while we're at it
+
+* Fri Oct 11 2002 Vincent Danen <vdanen@mandrakesoft.com> 0.2-2mdk
+- build for gkrellm2
+
+* Thu Jan 31 2002 Vincent Danen <vdanen@mandrakesoft.com> 0.2-1mdk
+- a lot more themes
+
+* Thu Apr 05 2001 Vincent Danen <vdanen@mandrakesoft.com> 0.1-2mdk
+- spec cleanups
+- more themes
+
+* Tue May 16 2000 Vincent Danen <vdanen@linux-mandrake.com> 0.1-1mdk
+- initial specfile
+- Added 26 different themes
