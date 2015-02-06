@@ -1,6 +1,6 @@
 %define name	gkrellm-themes
 %define version	20030129
-%define release	%mkrel 11
+%define release	12
 
 Name:		%{name}
 Version:	%{version}
