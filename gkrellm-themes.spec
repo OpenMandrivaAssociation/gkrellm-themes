@@ -8,7 +8,7 @@ Release:	%{release}
 Summary:	Themes for the GKrellM
 License:	GPL
 Group:		Monitoring
-URL:		http://www.muhri.net
+URL:		https://www.muhri.net
 Source:		http://www.muhri.net/gkrellm/GKrellM-Skins.tar.gz
 Requires:	gkrellm >= 0.9.0
 BuildArch:	noarch
